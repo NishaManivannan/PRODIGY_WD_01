@@ -1,4 +1,4 @@
-/* Global Styles */
+
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +10,7 @@ body {
   line-height: 1.6;
 }
 
-/* Navbar */
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -49,7 +49,6 @@ body {
   cursor: pointer;
 }
 
-/* Hero Section */
 .hero {
   height: 100vh;
   background: url('spices-bg.jpg') no-repeat center center/cover;
@@ -79,7 +78,6 @@ body {
   border-radius: 5px;
 }
 
-/* Spice Sections */
 .spice {
   padding: 50px;
   text-align: center;
@@ -130,7 +128,6 @@ body {
   margin-top: 5px;
 }
 
-/* Footer */
 footer {
   background-color: #8B4513;
   color: #fff;
@@ -141,7 +138,6 @@ footer {
   width: 100%;
 }
 
-/* Responsive Styles */
 @media screen and (max-width: 768px) {
   .hero h1 {
     font-size: 35px;
@@ -189,7 +185,8 @@ footer {
   color: #fff;
 }
 
-/* Add hover and touch effects for the spice images */
+
+
 .spice-item img {
   transition: transform 0.3s ease;
 }
@@ -199,10 +196,9 @@ footer {
   transform: scale(1.1);
 }
 
-/* Cart styles */
 .cart {
   position: fixed;
-  top: 80px; /* Adjust this value to move it below the navbar */
+  top: 80px; 
   right: 20px;
   background-color: #f8f8f8;
   padding: 10px;
@@ -216,51 +212,50 @@ footer {
 
 .cart h3 {
   margin: 0 0 10px 0;
-  font-size: 16px; /* Decreased font size */
+  font-size: 16px;
 }
 
 .cart-items {
-  max-height: 150px; /* Adjusted height */
+  max-height: 150px; 
   overflow-y: auto;
 }
 
 .cart-item {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 5px; /* Reduced margin for items */
+  margin-bottom: 5px; 
 }
 
 .cart-item p {
   margin: 0;
-  font-size: 14px; /* Decreased font size */
+  font-size: 14px; 
 }
 
 .cart-total {
   font-weight: bold;
   margin-top: 10px;
-  font-size: 16px; /* Decreased font size */
+  font-size: 16px; 
 }
 
-/* Button Styles */
+
 .btn {
   background-color: #ff7f50;
   color: #fff;
-  padding: 5px 10px; /* Adjusted button padding */
+  padding: 5px 10px;
   text-decoration: none;
   border: none;
   cursor: pointer;
-  font-size: 12px; /* Decreased button font size */
+  font-size: 12px; 
 }
 
 .btn:hover {
   background-color: #ff6347;
 }
 
-/* Specific styles for cart buttons */
 .cart-button {
-  font-size: 12px; /* Smaller font size for cart buttons */
-  padding: 5px 8px; /* Smaller padding for cart buttons */
-  margin-top: 5px; /* Spacing above buttons */
+  font-size: 12px; 
+  padding: 5px 8px; 
+  margin-top: 5px; 
 }
 .price {
   font-weight: bold;
